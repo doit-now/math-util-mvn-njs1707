@@ -32,7 +32,10 @@ public class MathUtility {
         //sống sót đến chỗ này, sure n = 2..20. Vì nếu ko chết dọc đường ở
         //2 cụm if ở trên rồi, KO CẦN ELSE NẾU TRƯỚC ĐÓ XÀI RETURN
         
-        long result = 1;  //giai thừa khởi đầu là 1
+        long result = 10;  //giai thừa khởi đầu là 1
+        //cố tình làm code màu đỏ, vì 2! lúc này là 20, 3! là 60
+        //nhân 10 lần
+        
         //nhân dồn 2 3 4 5....n vào biến này thì thành n!
         
         for (int i = 2; i <= n; i++) {
